@@ -1,0 +1,38 @@
+.header {
+    padding: 100px;
+    position: relative;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__logo {
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            max-width: 150px;
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    &__bottom {
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 2rem;
+            color: #494D4D;
+            text-align: center;
+        }
+
+        &__subtitle {
+            text-decoration: none;
+        }
+    }
+
+}

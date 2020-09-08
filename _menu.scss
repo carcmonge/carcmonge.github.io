@@ -1,0 +1,50 @@
+.menu {
+
+    &__title {
+        color: #007643;
+        font-size: 25px;
+    }
+
+    &__elements {
+        padding: 0 10px 25px 10px;
+        position: relative;
+    }
+
+    &__element {
+        border-bottom: 1px solid #EEE;
+
+        &__title {
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        
+        &__text {
+            margin-bottom: 0;
+            
+        }
+        
+        &__price {
+            margin: 10px 0;
+
+        }
+
+        &__img {
+            height: 100%;
+
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            &-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        }
+    }
+}
