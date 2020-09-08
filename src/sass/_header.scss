@@ -25,13 +25,18 @@
             font-size: 25px;
             font-weight: 700;
             line-height: 1;
-            margin-bottom: 2rem;
+            margin-bottom: 0;
             color: #494D4D;
             text-align: center;
         }
 
         &__subtitle {
-            text-decoration: none;
+            color: #00ce75;
+            text-align: center;
+            font-weight: 600;
+            display: block;
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
         }
     }
 
