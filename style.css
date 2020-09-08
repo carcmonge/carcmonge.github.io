@@ -2899,6 +2899,9 @@ body {
   height: 100%;
 }
 
+#popup {
+  display: none;
+}
 #popup a {
   color: #00ce75;
   text-align: center;
